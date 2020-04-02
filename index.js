@@ -43,7 +43,7 @@ if(!this.isDeleting && this.txt === fullTxt) {
 
   typeSpeed = 500;
 }
-  setTimeout(() => this.type(), 500)
+  setTimeout(() => this.type(), 100)
 }
 
 document.addEventListener('DOMContentLoaded', init);
@@ -52,6 +52,6 @@ function init(){
   const txtElement = document.querySelector('.txt-type');
   const words = JSON.parse(txtElement.getAttribute('data-words'));
   const wait = txtElement.getAttribute('data-wait');
-  
+
   new TypeWriter(txtElement, words, wait);
 }
