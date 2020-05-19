@@ -3,7 +3,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   height: 100vh;
-  background: #333 url('Wallpaper.jpg') no-repeat center center / cover;
+  background: #333 url('img/Wallpaper.jpg') no-repeat center center / cover;
   color: #ccc;
   overflow: hidden;
 }
@@ -20,10 +20,15 @@ h1, h2 {
 }
 h1 {
   font-size: 3.5rem;
+  margin-top: 300px;
 }
 h2 {
   font-size: 2rem;
   color: #aaa;
+}
+h3 {
+  margin-top: 200px;
+  text-align: center;
 }
 
 /* CURSOR
