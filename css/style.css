@@ -3,7 +3,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   height: 100vh;
-  background: #333 url('img/Wallpaper.jpg') no-repeat center center / cover;
+  background: #333 url('https://66.media.tumblr.com/6020ca4fcbeb69877d83f18364149a28/dac178c4dd7ff7c0-a8/s2048x3072/df3f6772853c2bc4b5a3101932448f354daaa7ee.jpg') no-repeat center center / cover;
   color: #ccc;
   overflow: hidden;
 }
@@ -29,6 +29,7 @@ h2 {
 h3 {
   margin-top: 200px;
   text-align: center;
+  justify-content: center;
 }
 
 /* CURSOR
