@@ -55,3 +55,4 @@ function init(){
 
   new TypeWriter(txtElement, words, wait);
 }
+console.log("asdf")
